@@ -1,0 +1,32 @@
+application {
+}
+
+resource {
+	GfxPath="."
+	ResourcesPath="_packed"
+}
+
+controllers {
+	# "1_" at start means server puts your player to GM side
+	# and "0_" puts to US side
+	# 19 chars is max name length
+	#nickname="1_UserID:Password"
+	nickname="1_me:Password"
+	InvertMouse=false
+}
+
+locale {
+	LocaleFile="AnimationBin/Localiser/HnG_Ingame_$.xml"
+}
+
+render {
+	disabletextlayer=true
+}
+
+boot {
+	run = true
+	crash_report_mode = 3
+}
+
+#-ip=7.127.35.42
+#-port=1721
