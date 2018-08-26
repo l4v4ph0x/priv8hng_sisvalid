@@ -19,6 +19,7 @@ namespace priv8hng_sisvali_launcher {
 
     private string lastIp = "255.255.255.255";
     private void tbx_ip_TextChanged(object sender, EventArgs e) {
+      /*
       IPAddress address;
       if (IPAddress.TryParse(tbx_ip.Text, out address)) {
         lastIp = tbx_ip.Text;
@@ -27,10 +28,12 @@ namespace priv8hng_sisvali_launcher {
         tbx_ip.Text = lastIp;
         tbx_ip.Select(select - 1, select - 2);
       }
+      */
     }
 
     private string lastPort = "65535";
     private void tbx_port_TextChanged(object sender, EventArgs e) {
+      /*
       ushort port;
       if (ushort.TryParse(tbx_port.Text, out port)) {
         lastPort = tbx_port.Text;
@@ -39,6 +42,7 @@ namespace priv8hng_sisvali_launcher {
         tbx_port.Text = lastPort;
         tbx_port.Select(select - 1, select - 2);
       }
+      */
     }
   }
 }

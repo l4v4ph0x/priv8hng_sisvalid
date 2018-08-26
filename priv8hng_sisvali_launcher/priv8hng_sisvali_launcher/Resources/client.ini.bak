@@ -28,5 +28,5 @@ boot {
 	crash_report_mode = 3
 }
 
-#-ip=7.127.35.42
+#-ip=35.204.221.98
 #-port=1721

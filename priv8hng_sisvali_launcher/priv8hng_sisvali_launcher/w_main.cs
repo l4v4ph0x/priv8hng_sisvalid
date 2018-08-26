@@ -25,7 +25,7 @@ namespace priv8hng_sisvali_launcher {
     string[] lines = null;
     int files_i = 99;
 
-    string host = "http://7.127.35.42:8080/downloads/sisvali/";
+    string host = "http://35.204.221.98:8080/downloads/sisvali/";
 
     Assembly assembly = Assembly.GetExecutingAssembly();
 
